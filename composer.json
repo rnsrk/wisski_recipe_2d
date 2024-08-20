@@ -10,83 +10,11 @@
             "role": "Maintainer"
         }
     ],
-    "repositories": {
-        "cure53/dompurify": {
-            "type": "package",
-            "package": {
-                "name": "cure53/dompurify",
-                "version": "3.1.6",
-                "type": "drupal-library",
-                "dist": {
-                    "url": "https://github.com/cure53/DOMPurify/archive/3.1.6.zip",
-                    "type": "zip"
-                },
-                "source": {
-                    "url": "https://github.com/cure53/DOMPurify.git",
-                    "type": "git",
-                    "reference": "main"
-                }
-            }
-        },
-        "jackmoore/colorbox": {
-                "type": "package",
-                "package": {
-                "name": "jackmoore/colorbox",
-                "version": "1.6.4",
-                "type": "drupal-library",
-                "dist": {
-                    "url": "https://github.com/jackmoore/colorbox/archive/1.6.4.zip",
-                    "type": "zip"
-                },
-                "source": {
-                    "url": "https://github.com/jackmoore/colorbox.git",
-                    "type": "git",
-                    "reference": "main"
-                }
-            }
-        },
-        "rnsrk/wisski-mirador-integration": {
-            "type": "package",
-            "package": {
-                "name": "rnsrk/wisski-mirador-integration",
-                "version": "1.1",
-                "type": "drupal-library",
-                "dist": {
-                    "url": "https://github.com/rnsrk/wisski-mirador-integration/archive/1.1.zip",
-                    "type": "zip"
-                },
-                "source": {
-                    "url": "https://github.com/rnsrk/wisski-mirador-integration.git",
-                    "type": "git",
-                    "reference": "main"
-                }
-            }
-        },
-        "ruven/iipmooviewer": {
-            "type": "package",
-            "package": {
-                "name": "ruven/iipmooviewer",
-                "version": "master",
-                "type": "drupal-library",
-                "dist": {
-                    "url": "https://github.com/ruven/iipmooviewer/archive/refs/heads/master.zip",
-                    "type": "zip"
-                },
-                "source": {
-                    "url": "https://github.com/ruven/iipmooviewer.git",
-                    "type": "git",
-                    "reference": "master"
-                }
-            }
-        }
-    },
     "require": {
-        "cure53/dompurify": "^3.1.6",
         "drupal/colorbox": "^2.0",
+        "drupal/geofield": "^1",
         "drupal/image_effects": "^4.0@beta",
         "drupal/imagemagick": "^4.0.1",
-        "jackmoore/colorbox": "^1.6.4",
-        "rnsrk/wisski-mirador-integration": "^1.1",
-        "ruven/iipmooviewer": "master"
+        "drupal/leaflet": "^10.2"
     }
 }
