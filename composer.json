@@ -81,7 +81,7 @@
         }
     },
     "require": {
-        "cure53/dompurify": "^3.1",
+        "cure53/dompurify": "^3.1.6",
         "drupal/colorbox": "^2.0",
         "drupal/image_effects": "^4.0@beta",
         "drupal/imagemagick": "^4.0.1",
