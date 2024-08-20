@@ -1,0 +1,94 @@
+{
+    "name": "rnsrk/wisski_recipe_2d",
+    "description": "Installs and configures the WissKI 2D environment with dependencies and libraries.",
+    "keywords": ["drupal recipe", "wisski"],
+    "type": "drupal-recipe",
+    "license": "GPL-2.0-or-later",
+    "authors": [
+        {
+            "name": "Robert Nasarek",
+            "role": "Maintainer"
+        }
+    ],
+    "require": {
+        "cure53/dompurify": "^3.1",
+        "drupal/colorbox": "^2.0",
+        "drupal/image_effects": "^4.0@beta",
+        "drupal/imagemagick": "^4.0.1",
+        "jackmoore/colorbox": "^1.6",
+        "rnsrk/wisski-mirador-integration": "^1.1.0",
+        "ruven/iipmooviewer": "^1.0.0"
+    },
+    "repositories": {
+        "cure53/dompurify": {
+            "type": "package",
+            "package": {
+                "name": "cure53/dompurify",
+                "version": "3.1.6",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://github.com/cure53/DOMPurify/archive/3.1.6.zip",
+                    "type": "zip"
+                },
+                "source": {
+                    "url": "https://github.com/cure53/DOMPurify.git",
+                    "type": "git",
+                    "reference": "main"
+                }
+            }
+        },
+        "jackmoore/colorbox": {
+                "type": "package",
+                "package": {
+                "name": "jackmoore/colorbox",
+                "version": "1.6.4",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://github.com/jackmoore/colorbox/archive/1.6.4.zip",
+                    "type": "zip"
+                },
+                "source": {
+                    "url": "https://github.com/jackmoore/colorbox.git",
+                    "type": "git",
+                    "reference": "main"
+                }
+            }
+        },
+        "rnsrk/wisski-mirador-integration": {
+            "type": "package",
+            "package": {
+                "name": "rnsrk/wisski-mirador-integration",
+                "version": "1.1",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://github.com/rnsrk/wisski-mirador-integration/archive/1.1.zip",
+                    "type": "zip"
+                },
+                "source": {
+                    "url": "https://github.com/rnsrk/wisski-mirador-integration.git",
+                    "type": "git",
+                    "reference": "main"
+                }
+            }
+        },
+        "ruven/iipmooviewer": {
+            "type": "package",
+            "package": {
+                "name": "ruven/iipmooviewer",
+                "version": "1.0.0",
+                "type": "drupal-library",
+                "dist": {
+                    "url": "https://github.com/ruven/iipmooviewer/archive/refs/heads/master.zip",
+                    "type": "zip"
+                },
+                "source": {
+                    "url": "https://github.com/ruven/iipmooviewer.git",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        }
+                    
+
+    }
+}

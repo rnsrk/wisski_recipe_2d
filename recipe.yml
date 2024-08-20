@@ -1,0 +1,22 @@
+name: 'WissKI base'
+description: 'WissKI base environment with mandatory modules.'
+type: 'Site'
+
+recipes:
+  - rnsrk/wisski_recipe_base_dev
+
+install:
+  - colorbox
+  - wisski_iip_image
+  - wisski_mirador
+  
+
+config:
+  import:
+    image_effects: "*"
+    imagemagick: "*"
+    colorbox: "*"
+    geofield: "*"
+    viewfield: "*"
+    inline_entity_form: "*"
+    wisski: "*"
