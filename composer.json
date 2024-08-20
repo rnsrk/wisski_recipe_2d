@@ -66,7 +66,7 @@
             "type": "package",
             "package": {
                 "name": "ruven/iipmooviewer",
-                "version": "1.0.0",
+                "version": "master",
                 "type": "drupal-library",
                 "dist": {
                     "url": "https://github.com/ruven/iipmooviewer/archive/refs/heads/master.zip",
@@ -87,6 +87,6 @@
         "drupal/imagemagick": "^4.0.1",
         "jackmoore/colorbox": "^1.6.4",
         "rnsrk/wisski-mirador-integration": "^1.1",
-        "ruven/iipmooviewer": "^1.0.0"
+        "ruven/iipmooviewer": "master"
     }
 }
