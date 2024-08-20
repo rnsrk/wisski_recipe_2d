@@ -86,7 +86,7 @@
         "drupal/image_effects": "^4.0@beta",
         "drupal/imagemagick": "^4.0.1",
         "jackmoore/colorbox": "^1.6.4",
-        "rnsrk/wisski-mirador-integration": "^1.1.0",
+        "rnsrk/wisski-mirador-integration": "^1.1",
         "ruven/iipmooviewer": "^1.0.0"
     }
 }
