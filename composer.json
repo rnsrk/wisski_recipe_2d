@@ -10,15 +10,6 @@
             "role": "Maintainer"
         }
     ],
-    "require": {
-        "cure53/dompurify": "^3.1",
-        "drupal/colorbox": "^2.0",
-        "drupal/image_effects": "^4.0@beta",
-        "drupal/imagemagick": "^4.0.1",
-        "jackmoore/colorbox": "^1.6",
-        "rnsrk/wisski-mirador-integration": "^1.1.0",
-        "ruven/iipmooviewer": "^1.0.0"
-    },
     "repositories": {
         "cure53/dompurify": {
             "type": "package",
@@ -88,7 +79,14 @@
                 }
             }
         }
-                    
-
+    },
+    "require": {
+        "cure53/dompurify": "^3.1",
+        "drupal/colorbox": "^2.0",
+        "drupal/image_effects": "^4.0@beta",
+        "drupal/imagemagick": "^4.0.1",
+        "jackmoore/colorbox": "^1.6",
+        "rnsrk/wisski-mirador-integration": "^1.1.0",
+        "ruven/iipmooviewer": "^1.0.0"
     }
 }
